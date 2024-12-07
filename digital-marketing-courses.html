@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Marketing Courses</title>
+    <!-- Linking Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Linking font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .contactUs-fixedButton{
+        position: fixed;
+        left: 1255px;
+        rotate: 270deg;
+        bottom: 300px;
+        height: 50px;
+        width: 110px;
+      }
+      .img1{
+        height: 300px;
+        width: 400px;
+      }
+      .img2{
+        height: 250px;
+      }
+      .division{
+      background-color: black;
+      color: white;
+     }
+     
+    </style>
+</head>
+<body>
+    <!-- Header Design Starts -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand text-primary fs-3" href="./aitCoders-home.html">AIT Coders</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./aitCoders-home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Courses
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./frontEnd-courses.html">Front End Courses</a></li>
+              <li><a class="dropdown-item" href="./fullStack-courses.html">Full Stack Courses</a></li>
+              <li><a class="dropdown-item" href="./artificial-intelligence.html">Artificial Intelligence</a></li>
+              <li><a class="dropdown-item" href="./cloud-computing.html">Cloud Computing</a></li>
+              <li><a class="dropdown-item" href="./software-testing.html">Software Testing</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="./dataScience.html">Data Science</a></li>
+              <li><a class="dropdown-item" href="./microsoft-powerBI-training.html">Microsoft Power BI Training</a></li>
+              <li><a class="dropdown-item" href="digital-marketing-courses.html">Digital Marketing Courses</a></li>
+           </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./placements.html">Placements</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./reviews.html">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./blogs.html">Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contactUs.html">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+          <button type="button" class="btn btn-outline-danger ms-1" data-bs-toggle="modal" data-bs-target="#signInModal">
+            SignIn
+          </button>
+          <button type="button" class="btn btn-outline-success ms-1" data-bs-toggle="modal" data-bs-target="#signUpModal">
+            SignUp
+          </button>
+        </form>
+      </div>
+    </div>
+</nav>
+<!-- Header Design of Part-1 Ends -->
+<!-- Modal Property for SignIn starts -->
+<!-- Button trigger modal -->
+<div class="modal fade" id="signInModal" tabindex="-1" aria-labelledby="signInModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="signInModalLabel">Sign In Now!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- SignIn form starts -->
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-success">Sign In</button>
+            </form>                 
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-outline-primary" data-bs-dismiss="modal">Forgot Password</button>
+        </div>
+        <!-- SignIn form ends -->
+    </div>
+</div>
+</div>
+<!-- Modal Property for SignIn ends -->
+<!-- Modal Property for SignUp starts -->
+<!-- Button trigger modal -->
+<div class="modal fade" id="signUpModal" tabindex="-1" aria-labelledby="signUpModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="signUpModalLabel">Sign In Now!</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- SignUp form starts -->
+            <form>
+                <div class="mb-3 ">
+                    <label for="exampleInputName" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName">               
+                 </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPhoneNumber" class="form-label">Phone Number</label>
+                  <input type="tel" class="form-control" id="exampleInputPhoneNumber">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Create Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword2" class="form-label">Confirm Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword2">
+                  </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">I accept all terms & conditions</label>
+                </div>
+                <button type="submit" class="btn btn-success">Sign Up</button>
+            </form>  
+            <p>Already have an account?<a href="#" class="text-decoration-none">Sign In now</a></p>              
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-outline-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+        <!-- SignUp form ends -->
+    </div>
+</div>
+</div>
+<!-- Modal Property for SignUp ends -->
+<!-- Header Design Ends -->  
+
+
+<!-- Fixed Contact Us Starts -->
+<button type="button" class="btn btn-primary ms-1 contactUs-fixedButton" data-bs-toggle="modal" data-bs-target="#contactUsModal">
+  Contact Us
+</button>
+<!-- Modal Property for Contact Us starts -->
+  <!-- Button trigger modal -->
+  <div class="modal fade" id="contactUsModal" tabindex="-1" aria-labelledby="contactUsModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h1 class="modal-title fs-5" id="contactUsModalLabel">Contact Us</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <!-- Contact Us form starts -->
+            <form>
+                <div class="mb-3 ">
+                      <label for="exampleInputName" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="exampleInputName" placeholder="Name">               
+                </div>
+                <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                      <label for="exampleInputContactNumber" class="form-label">Contact Number</label>
+                      <input type="tel" class="form-control" id="exampleInputContactNumber" placeholder="Contact Number">
+                </div>
+                <div class="mb-3 ">
+                      <label for="exampleMessage" class="form-label">Message</label>
+                      <textarea class="form-control" id="exampleMessage" placeholder="Your Message"></textarea>               
+                </div>
+                <button type="submit" class="btn btn-success">Submit Form</button>
+            </form>                 
+        </div>
+        <!-- Contact Us form ends -->
+    </div>
+</div>
+</div>
+<!-- Modal Property for Contact Us ends -->
+<!-- Fixed Contant Us Ends  -->
+
+
+
+<!--Digital marketing main content start-->
+<section>
+  <h2 class="text-center mb-5" style="color:darkmagenta;">Digital Marketing</h2>
+  <img src="./Assets/Images/digital.webp" class="img-fluid" alt="digital image" style="height:400px;width:100%;">
+</section>
+<br>
+<section>
+  <h4 style="color: fuchsia;">What is Digital Marketing</h4>
+  <p class="ms-5">Digital marketing is defined as the use of digital channels to promote a product or service. It's the opposite of offline marketing, for example.<br> The goal of this approach is to connect with customers online—the place where they spend the most time seeking information or entertainment.</p>
+  <p class="ms-5">Digital marketing is a broad practice, simply because there are so many online channels available. Posting on social media is a form of digital marketing, as are email marketing and blogging. Together, the promotional content on these various platforms forms a cohesive online marketing strategy. Whether you are focusing on event marketing or creating an email subscriber list, digital marketing is an incredible important facet. </p>
+</section>
+<section>
+  <h4 style="color:goldenrod;">Benefits of digital marketing</h4>
+  <p class="ms-2">Every company—from large international organizations to independent brick-and-mortar stores—can gain from advertising themselves online. Here are some of the ways digital marketing can benefit your business: </p>
+  <p class="ms-5">* Building brand awareness by putting your stamp on the web<br>
+     * Engaging prospective customers and generating leads<br>
+     * Deepening customer relationships and building a loyal customer base<br>
+     * Guiding customers through the marketing funnel, from the first touchpoint to the sale</p>
+</section>
+<section>
+  
+  <img src="./Assets/Images/seo.jpg" class="rounded float-end img2 img-fluid me-5" alt="about page">
+  <h2 style="color:salmon">SEO</h2>
+  <p class=" d-start ms-5">* A foundational element of digital marketing, SEO is the practice of optimizing your website to rank higher in search engine results..</p>
+  <p class=" d-start ms-5">* On-page SEO :involves optimizing the pages on your website by conducting keyword research. </p>
+  <p class=" d-start ms-5">*Off-page SEO :is about improving your SEO by looking at pages external to your website.</p>
+  <p class=" d-start ms-5">*Off-page SEO :is about improving your SEO by looking at pages external to your website.</p>
+</section>
+
+<!--digital marketing main content end-->
+<br>
+
+
+
+<!-- Footer Design Starts -->
+<div class="container-fluid mt-4 division ">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Company</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./aitCoders-home.html" class="nav-link p-0 text-white-50">Home</a></li>
+          <li class="nav-item mb-2"><a href="./about.html" class="nav-link p-0 text-white-50">About</a></li>
+          <li class="nav-item mb-2"><a href="./placements.html" class="nav-link p-0 text-white-50">Placements</a></li>
+          <li class="nav-item mb-2"><a href="./reviews.html" class="nav-link p-0 text-white-50">Reviews</a></li>
+          <li class="nav-item mb-2"><a href="./blogs.html" class="nav-link p-0 text-white-50">Blogs</a></li>
+          <li class="nav-item mb-2"><a href="./contactUs.html" class="nav-link p-0 text-white-50">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Trending Courses</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="./frontEnd-courses.html" class="nav-link p-0 text-white-50">Front End Courses</a></li>
+          <li class="nav-item mb-2"><a href="./fullStack-courses.html" class="nav-link p-0 text-white-50">Full Stack Courses</a></li>
+          <li class="nav-item mb-2"><a href="./artificial-intelligence.html" class="nav-link p-0 text-white-50">Artificial Intelligence</a></li>
+          <li class="nav-item mb-2"><a href="./cloud-computing.html" class="nav-link p-0 text-white-50">Cloud Computing</a></li>
+          <li class="nav-item mb-2"><a href="./dataScience.html" class="nav-link p-0 text-white-50">Data Science</a></li>
+          <li class="nav-item mb-2"><a href="./digital-marketing-courses.html" class="nav-link p-0 text-white-50">Digital Marketing Courses</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Contact Info</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50"><i class="fa-solid fa-map-location-dot"></i>&nbsp;&nbsp;#63, 1<sup>st</sup>, 16<sup>th</sup> Main, 8<sup>th</sup> Cross, BTM 1<sup>st</sup> Stage, Banglore, India - 560029</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50"><i class="fa-solid fa-phone-volume"></i>&nbsp;&nbsp;India : +91 8431-040-457</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white-50"><i class="fa-solid fa-envelope-open-text"></i>&nbsp;&nbsp;info@achieversit .com</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2024 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-facebook-f text-white-50"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-instagram text-white-50"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-twitter  text-white-50"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-linkedin-in text-white-50"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="fa-brands fa-youtube text-white-50"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</div>
+ <!-- Footer Design Ends  -->
+</body>
+</html>
